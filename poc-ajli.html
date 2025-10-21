@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PoC - Subdomain Takeover by ajli</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            max-width: 800px; 
+            margin: 50px auto; 
+            padding: 20px; 
+            text-align: center;
+        }
+        .poc { 
+            background: #f0f8ff; 
+            border: 2px solid #4682b4; 
+            padding: 20px; 
+            border-radius: 10px; 
+            margin: 20px 0; 
+        }
+    </style>
+</head>
+<body>
+    <h1>🔓 Proof of Concept</h1>
+    
+    <div class="poc">
+        <h2>Subdomain Takeover Demonstration</h2>
+        <p>This file proves control over the subdomain</p>
+        <p><strong>Researcher:</strong> ajli</p>
+        <p><strong>Date:</strong> <span id="date"></span></p>
+        <p><strong>Purpose:</strong> Bug Bounty PoC</p>
+    </div>
+    
+    <p>This is a safe demonstration for educational purposes only.</p>
+    
+    <script>
+        document.getElementById('date').textContent = new Date().toLocaleDateString();
+    </script>
+</body>
+</html>
