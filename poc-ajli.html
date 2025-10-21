@@ -1,40 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>PoC - Subdomain Takeover by ajli</title>
-    <style>
-        body { 
-            font-family: Arial, sans-serif; 
-            max-width: 800px; 
-            margin: 50px auto; 
-            padding: 20px; 
-            text-align: center;
-        }
-        .poc { 
-            background: #f0f8ff; 
-            border: 2px solid #4682b4; 
-            padding: 20px; 
-            border-radius: 10px; 
-            margin: 20px 0; 
-        }
-    </style>
+    <title>Subdomain Takeover PoC - acc.oppo.com</title>
 </head>
 <body>
-    <h1>🔓 Proof of Concept</h1>
-    
-    <div class="poc">
-        <h2>Subdomain Takeover Demonstration</h2>
-        <p>This file proves control over the subdomain</p>
-        <p><strong>Researcher:</strong> ajli</p>
-        <p><strong>Date:</strong> <span id="date"></span></p>
-        <p><strong>Purpose:</strong> Bug Bounty PoC</p>
-    </div>
-    
-    <p>This is a safe demonstration for educational purposes only.</p>
-    
-    <script>
-        document.getElementById('date').textContent = new Date().toLocaleDateString();
-    </script>
+    <h1>Proof of Similar Domain Takeover</h1>
+    <p>Original vulnerable: acc.oppo.com</p>
+    <p>CNAME: sgp-gow-pubgw-497684155.ap-southeast-1.elb.amazonaws.com</p>
+    <p>PoC by: ajli</p>
+    <p>This demonstrates the risks of dangling DNS records</p>
 </body>
 </html>
-
